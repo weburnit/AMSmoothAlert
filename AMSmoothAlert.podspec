@@ -12,9 +12,6 @@ Pod::Spec.new do |s|
   s.homepage     = "https://github.com/mtonio91/AMSmoothAlert"
   s.screenshots  = "https://s3.amazonaws.com/cocoacontrols_production/uploads/control_image/image/3552/screenshot.jpg"
 
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-
-  
   s.author             = { "Antoine Marliac" => "antoine.marliac@supinfo.com" }
   s.social_media_url   = "https://twitter.com/Toinetoine75"
 
