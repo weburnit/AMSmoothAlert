@@ -17,12 +17,10 @@ Pod::Spec.new do |s|
 
   s.license      = { :type => "MIT", :file => "LICENSE" }
   s.platform     = :ios
-  s.platform     = :ios, "5.0"
+  s.platform     = :ios, "7.0"
 
 
   s.source       = { :git => "https://github.com/mtonio91/AMSmoothAlert.git", :tag => "1.1" }
-
-
 
 
   s.source_files  = "AMSmoothAlert", "AMSmoothAlert/*.{h,m}"
@@ -30,8 +28,6 @@ Pod::Spec.new do |s|
 
 
   s.frameworks = "Foundation", "CoreGraphics", "UIKit", "Foundation"
-
-
 
   s.requires_arc = true
 
